@@ -1,13 +1,13 @@
 
-- name: Josh
+- name: Trần Đăng Khương
   role: Treasurer
   homePage: true
-  photo: "./execs/josh.jpg"
-- name: Kristian
+  photo: "./execs/dan.jpg"
+- name: Haard Shah
   role: President
   homePage: true
-  photo: "./execs/kristian.jpg"
-- name: Max
-  role: Vice-President
+  photo: "./execs/haard.jpg"
+- name: Drayko Medlyn
+  role: Secretary
   homePage: true
-  photo: "./execs/max.jpg"
+  photo: "./execs/drayko.jpg"
