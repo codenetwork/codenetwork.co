@@ -11,3 +11,7 @@
   role: Secretary
   homePage: true
   photo: "./execs/drayko.jpg"
+- name: Louis Von Richter
+  role: Vice President
+  homePage: true
+  photo: "./execs/louis.jpg"
