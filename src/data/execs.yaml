@@ -8,10 +8,14 @@
   homePage: true
   photo: "./execs/haard.jpg"
 - name: Drayko Medlyn
-  role: Secretary
-  homePage: true
-  photo: "./execs/drayko.jpg"
-- name: Louis Von Richter
   role: Vice President
   homePage: true
-  photo: "./execs/louis.jpg"
+  photo: "./execs/drayko.jpg"
+- name: Jim Chi
+  role: Industry Lead
+  homePage: true
+  photo: "./execs/jim.jpg"
+- name: Andrew Clarke
+  role: Industry Lead
+  homePage: true
+  photo: "./execs/andrew.jpg"
