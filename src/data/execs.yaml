@@ -11,11 +11,11 @@
   role: Vice President
   homePage: true
   photo: "./execs/drayko.jpg"
+- name: Andrew Clarke
+  role: Secretary
+  homePage: true
+  photo: "./execs/andrew.jpg"
 - name: Jim Chi
   role: Industry Lead
   homePage: true
   photo: "./execs/jim.jpg"
-- name: Andrew Clarke
-  role: Industry Lead
-  homePage: true
-  photo: "./execs/andrew.jpg"
