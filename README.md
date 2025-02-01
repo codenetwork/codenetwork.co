@@ -22,6 +22,16 @@ The only installation needed for this project is for the Node modules. To instal
 npm install
 ```
 
+### Running the server
+
+Once you have the dependencies installed, run:
+
+```
+npm run dev
+```
+
+and then navigate to `http://localhost:5432`.
+
 ## Contributing
 
 We welcome contributions from all members of the Code Network and broader community. For more information, please take a look at the contributing guidelines.
