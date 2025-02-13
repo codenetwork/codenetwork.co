@@ -30,7 +30,7 @@ Once you have the dependencies installed, run:
 npm run dev
 ```
 
-and then navigate to `http://localhost:5432`.
+and then navigate to `http://localhost:4321`.
 
 ## Contributing
 
