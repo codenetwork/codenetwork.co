@@ -1,4 +1,4 @@
-![codenetwork.co - Our club's awesome website](.github/assets/banner.png)
+![codenetwork.co - Our club's awesome website](.github/assets/banner.svg)
 
 <div align="center">
 <h1>Code Network's Website</h1>
