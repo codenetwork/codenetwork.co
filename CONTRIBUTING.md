@@ -2,13 +2,15 @@
 
 We welcome and appreciate any contributions to our club's website, whether you are a current student or not. Please have a read over these guidelines before making any contributions to the project.
 
-Our aim, as a club, is to make this project as accessible to the community as possible. By making a contribution to this project, you are not locked into contributing forever.
+Our aim, as a club, is to make this project as accessible to the community as possible. We hope that this guide will help you to get started in working on our website and building awesome things yourself!
 
 ## New Here?
 
 Welcome to the repository for our website! There are many ways you can contribute which we hope to outline in this document.
 
-We also encourage you to join the [Code Network Discord Server](https://discord.gg/scXBk2j4uE) and to select the projects that you would be interested in contributing to so you can see the specific channel.
+We  encourage you to join the [Code Network Discord Server](https://discord.gg/scXBk2j4uE) and to select the projects that you would be interested in contributing to so that you can see the relevant channels for these projects.
+
+Additionally, we recommend you visit the Open Source Guide's ["How to Contribute" guide](https://opensource.guide/how-to-contribute/) for more ideas and information about how you can contribute to an open-source project such as this one.
 
 ## Code of Conduct
 
