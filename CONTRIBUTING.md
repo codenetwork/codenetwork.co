@@ -34,7 +34,7 @@ The steps below outline the process to add your own code to the project:
 
 1. [Create a fork of this repository](https://github.com/codenetwork/codenetwork.co/fork)
 2. Clone the fork to your computer, write some code, and commit as you go.
-3. When your changes are ready to be merged with the main codebase, create a pull request.
+3. When your changes are ready to be merged with the main codebase, [create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 4. Our team will review your pull request and will discuss with you if any changes need to be made. You are still able to make further commits at this point.
 5. Once our team is satisfied, we will approve your pull request and merge your fork with our repository.
 
