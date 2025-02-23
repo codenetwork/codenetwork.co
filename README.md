@@ -10,34 +10,38 @@ We are open sourcing the website as we would love for students who share an inte
 > [!NOTE]
 > This repository is for the 2025 rebuild of the website. To see the previous version of our website, visit https://github.com/codenetwork/viteCN.
 
-## Getting Started
+## 📌 Features
 
-These instructions will get you a copy of the website up and running on your local machine for development and testing purposes
+- Home page showcasing our club at a glance
+- About us page where the public can find more information about who we are.
+- Events page listing the various events we have coming up
+- Projects page showing the cool projects our club is building
+- And more!
 
-### Prerequisites
+## 🚀 Installation
 
-To run this website locally, you will need to have [Node.js](https://nodejs.org/en) installed. We recommend installing Node v22, which is the LTS (long-term support) version.
+1. Ensure you have Node.js installed (v22 recommended).
+2. Run `npm install`
+3. (optional) Install the recommended VS Code dependencies (Astro, TailwindCSS, and Prettier)
 
-### Installing
+### 🖥️ Usage
 
-The only installation needed for this project is for the Node modules. To install, run the following command inside the project directory:
+Run `npm run dev` in the project directory and then navigate to `http://localhost:4321`.
 
-```
-npm install
-```
+## 🛠️ Technologies Used
 
-### Running the server
+- **[Astro](https://astro.build/)** (Static Website Generator)
+- **[TailwindCSS](https://tailwindcss.com/)** (Web Styling Library)
 
-Once you have the dependencies installed, run:
-
-```
-npm run dev
-```
-
-and then navigate to `http://localhost:4321`.
-
-## Contributing
+## 🌟 If You Are Interested
 
 We welcome contributions from all members of the Code Network and broader community. For more information, please take a look at the [Contributing Guidelines](./CONTRIBUTING.md).
+
+Below are some of the ways you can contribute to this project:
+
+- **Web Development:** If you're looking to develop parts of our website, take a look at our issues page, and find a feature that needs implementing that you feel meets your skillset.
+- **Testing:** If you enjoy breaking things apart and making sure they look and function as expected, test out the website and report bugs for anything that doesn't quite seem right.
+- **Brainstorming Ideas:** If you like coming up with new ways of doing things, create an issue for any features you think we should add to our website.
+- **Documentation:** Improving explanations in the README, adding guides to help beginners get started, or fixing typos can be a huge help.
 
 Please note that our [Code of Conduct](./CODE_OF_CONDUCT.md) applies to all contributors.
