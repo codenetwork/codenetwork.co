@@ -2,8 +2,10 @@
 @import "tailwindcss";
 
 @theme {
-    --color-cn-primary: #0a0d2a;
-    --color-cn-accent: #34cd3c;
+    --color-primary: #0a0d2a;
+    --color-accent: #34cd3c;
+    --color-charcoal: #1e1e1e;
+    --color-onyx: #0f0f0f;
     --font-sans: "Poppins", sans-serif;
     --font-heading: "Bungee", sans-serif;
 }
