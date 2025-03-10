@@ -12,7 +12,7 @@ We are open sourcing the website as we would love for students who share an inte
 
 ## 🎨 Design
 
-Our website design will be based on the design by [Jose Hernandez](https://www.linkedin.com/in/jose-hernandez-garzon-143196168/) as the winning entry in our Website Redesign Competition.
+Our website design will be based on the design by [Jose Hernandez](https://www.linkedin.com/in/jose-hernandez-garzon-143196168/) as the winning entry in our [Website Redesign Competition](https://www.codenetwork.co/competition).
 
 You can see the Figma designs at the link below:
 - [Desktop Version](https://www.figma.com/proto/dQMa4Xgqcl1ydbMDKF5pDX/Code-network-Desktop?page-id=0%3A1&node-id=1-2022&viewport=-1450%2C-95%2C0.08&t=BjTI1ncc2Uu8hTWn-1&scaling=scale-down-width&content-scaling=fixed)
