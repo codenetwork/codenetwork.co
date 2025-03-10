@@ -46,6 +46,8 @@ The flowchart below visually summarises this process:
 
 Our [issues page](https://github.com/codenetwork/codenetwork.co/issues) is the easiest place to find ideas for things to contribute to the project. Here, you will find feature requests and bug reports that will need to be addressed.
 
+[Issues that don't have an assignee](https://github.com/codenetwork/codenetwork.co/issues?q=is%3Aissue%20state%3Aopen%20no%3Aassignee) are available for you to work on. If you see an issue that you would like to work on, leave a comment, and a member of our team will allocate you to the issue.
+
 Here are some tips to help you find something to work on:
 
 - Filter by labels:
