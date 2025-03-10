@@ -9,3 +9,10 @@
     --font-sans: "Poppins", sans-serif;
     --font-display: "Bungee", sans-serif;
 }
+
+.gridpattern {
+	background-image: linear-gradient(#0F0F0F 1px, transparent 1px), linear-gradient(to right, #0F0F0F 1px, transparent 1px);
+	background-size: 20px 20px;
+	background-color: #000000;	
+}
+ 
