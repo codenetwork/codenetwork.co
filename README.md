@@ -10,6 +10,14 @@ We are open sourcing the website as we would love for students who share an inte
 > [!NOTE]
 > This repository is for the 2025 rebuild of the website. To see the previous version of our website, visit https://github.com/codenetwork/viteCN.
 
+## 🎨 Design
+
+Our website design will be based on the design by [Jose Hernandez](https://www.linkedin.com/in/jose-hernandez-garzon-143196168/) as the winning entry in our [Website Redesign Competition](https://www.codenetwork.co/competition).
+
+You can see the Figma designs at the link below:
+- [Desktop Version](https://www.figma.com/proto/dQMa4Xgqcl1ydbMDKF5pDX/Code-network-Desktop?page-id=0%3A1&node-id=1-2022&viewport=-1450%2C-95%2C0.08&t=BjTI1ncc2Uu8hTWn-1&scaling=scale-down-width&content-scaling=fixed)
+- [Mobile Version](https://www.figma.com/proto/Ri1GdjqL2HH0WZQGwyib1G/Code-Network-Mobile?page-id=0%3A1&node-id=1-25737&viewport=-4661%2C-367%2C0.15&t=oHroaKSrsrbyH9nQ-1&scaling=scale-down&content-scaling=fixed)
+
 ## 📌 Features
 
 - Home page showcasing our club at a glance
