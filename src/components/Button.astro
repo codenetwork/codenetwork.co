@@ -1,0 +1,94 @@
+---
+import { Icon } from "astro-icon/components"
+
+interface Props {
+    text: string
+    type: "button" | "link"
+    path?: string
+    eventHandler?: any
+    isFilled?: boolean
+    isBordered?: boolean
+    isRounded?: boolean
+    isAnimated?: boolean
+    classes?: string
+    id?: string
+    icon?: {
+        name: string
+        side: "left" | "right"
+    }
+}
+
+const {
+    text,
+    path,
+    type,
+    eventHandler,
+    isFilled,
+    isBordered,
+    isRounded,
+    isAnimated,
+    classes,
+    id,
+    icon,
+} = Astro.props as Props
+
+const fill =  `bg-accent text-white hover:bg-accent-active`
+
+const border = `border border-4 border-accent text-accent hover:text-white hover:bg-accent`
+
+const styling = "px-8 py-4 inline-flex font-display items-center gap-x-4 transition-all duration-300 group"
+
+const animate_left = "group-hover:-translate-x-2 transition-all duration-300"
+const animate_right = "group-hover:translate-x-2 transition-all duration-300"
+---
+
+{
+    type === "button" && (
+        <button onclick={ eventHandler } class={`
+            ${ isFilled ? fill : "" }
+            ${ isBordered ? border : "" }
+            ${ isRounded ? "rounded-full" : "" }
+            ${ styling }
+            ${ classes }
+        `}
+        id={ id }
+        >
+            {
+                icon && icon.side === "left" && (
+                    <Icon name={ icon.name } class={` ${ isAnimated ? animate_left : "" } `}  />
+                )
+            }
+            { text }
+            {
+                icon && icon.side === "right" && (
+                    <Icon name={ icon.name } class={` ${ isAnimated ? animate_right : "" } `}  />
+                )
+            }
+        </button>
+    )
+}
+{
+    type === "link" && (
+        <a href={ path } class={`
+            ${ isFilled ? fill : "" }
+            ${ isBordered ? border : "" }
+            ${ isRounded ? "rounded-full" : "rounded-xl" }
+            ${ styling }
+            ${ classes }
+        `}
+        id={ id }
+        >
+            {
+                icon && icon.side === "left" && (
+                    <Icon name={ icon.name } class={` ${ isAnimated ? animate_left : "" } `}  />
+                )
+            }
+            { text }
+            {
+                icon && icon.side === "right" && (
+                    <Icon name={ icon.name } class={` ${ isAnimated ? animate_right : "" } `}  />
+                )
+            }
+        </a>
+    )
+}
