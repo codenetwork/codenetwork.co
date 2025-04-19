@@ -1,0 +1,105 @@
+---
+import { Icon } from "astro-icon/components"
+import { Image } from "astro:assets"
+import NavbarDropdown from "./NavbarDropdown.astro"
+import data from "../data/site.ts"
+const { nav } = data
+import Button from "./Button.astro"
+---
+
+<nav class="text-base-content text-white">
+    <div class="container mx-auto px-4 md:flex items-center gap-6 md:justify-center">
+        <!-- Logo -->
+        <div class="flex items-center justify-between md:w-auto w-full">
+            <span class="py-5 px-2 flex items-center">
+                <Image src="/logo.png" alt="Code Network Logo" width="86" height="60" class="border-white border p-4 rounded-xl" />
+            </span>
+    
+            <!-- mobile menu icon -->
+            <div class="md:hidden flex items-center">
+                <button type="button" class="mobile-menu-button">
+                    <span class="text-2xl" id="menu-open-icon"><Icon name="tabler:align-right" /></span>
+                    <span class="text-2xl hidden" id="menu-close-icon"><Icon name="tabler:x" /></span>
+                </button>
+            </div>
+        </div>
+    
+        <div class="hidden md:flex md:flex-row flex-col items-center justify-start md:space-x-1 navigation-menu border-white border px-4 py-2 rounded-xl">
+            {
+                nav.map(page => {
+                    if (page.type === "link") {
+                        return (
+                            <a data-navlink href={page.path} class="py-2 px-4 hover:underline flex items-center gap-x-4 text-lg">
+                                {page.title}
+                            </a>
+                        )
+                    } else if (page.type === "dropdown") {
+                        return (
+                            <NavbarDropdown title={page.title} links={page.content} />
+                        )
+                    }
+                })
+            }
+        </div>
+
+        <Button
+            type="link"
+            path="/"
+            text="Join Us!"
+            isFilled={false}
+            isRounded={false}
+            isBordered={true}
+            icon={{ name: "tabler:link", side: "left" }}
+        />
+    </div>
+</nav>
+
+<script is:inline>
+    document.addEventListener("DOMContentLoaded", () => {
+        // Select all dropdown toggle buttons
+        const dropdownToggles = document.querySelectorAll(".dropdown-toggle")
+
+        dropdownToggles.forEach((toggle) => {
+            toggle.addEventListener("click", () => {
+                // Find the next sibling element which is the dropdown menu
+                const dropdownMenu = toggle.nextElementSibling
+
+                // Toggle the 'hidden' class to show or hide the dropdown menu
+                if (dropdownMenu.classList.contains("hidden")) {
+                    // Hide any open dropdown menus before showing the new one
+                    document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+                        menu.classList.add("hidden")
+                    })
+
+                    dropdownMenu.classList.remove("hidden")
+                } else {
+                    dropdownMenu.classList.add("hidden")
+                    toggle.blur()
+                }
+            })
+        })
+
+        window.addEventListener("click", function (e) {
+            if (!e.target.matches(".dropdown-toggle, .dropdown-toggle *")) {
+                document.querySelectorAll(".dropdown-menu").forEach((menu) => {
+                    if (!menu.contains(e.target)) {
+                        menu.classList.add("hidden")
+                    }
+                })
+            }
+        })
+        
+        // Mobile menu toggle
+        
+        const mobileMenuButton = document.querySelector('.mobile-menu-button')
+        const mobileMenu = document.querySelector('.navigation-menu')
+        const menuOpenButton = document.querySelector('#menu-open-icon')
+        const menuCloseButton = document.querySelector('#menu-close-icon')
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden')
+            menuOpenButton.classList.toggle('hidden')
+            menuCloseButton.classList.toggle('hidden')
+        })
+    })
+</script>
