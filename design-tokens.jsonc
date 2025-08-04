@@ -1,0 +1,21 @@
+{
+  // =======================
+  // Color Tokens
+  // =======================
+  "color": {
+    "primary":  { "value": "#0a0d2a" }, // Deep navy background
+    "accent":   { "value": "#34cd3c" }, // Brand green
+    "charcoal": { "value": "#1e1e1e" }, // Card background
+    "onyx":     { "value": "#0f0f0f" }  // Grid line color
+  },
+
+  // =======================
+  // Font Family Tokens
+  // =======================
+  "font": {
+    "family": {
+      "sans":    { "value": "Poppins, sans-serif" },
+      "display": { "value": "Bungee, sans-serif" }
+    }
+  }
+}

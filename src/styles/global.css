@@ -16,3 +16,15 @@
 	background-color: #000000;	
 }
  
+
+/* ========== Color Tokens ========== */
+:root {
+  --c-primary:  #0a0d2a; /* Deep navy */
+  --c-accent:   #34cd3c; /* Brand green */
+  --c-charcoal: #1e1e1e; /* Card bg */
+  --c-onyx:     #0f0f0f; /* Grid line */
+
+  /* ========== Font Tokens ========== */
+  --font-sans:    "Poppins", sans-serif;
+  --font-display: "Bungee", sans-serif;
+}
